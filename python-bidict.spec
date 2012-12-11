@@ -44,3 +44,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %files
 %defattr(-,root,root)
 %py_sitedir/%{module}*
+
+
+%changelog
+* Mon Jul 02 2012 Lev Givon <lev@mandriva.org> 0.1.1-1
++ Revision: 807844
+- imported package python-bidict
+
