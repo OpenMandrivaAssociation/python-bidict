@@ -10,9 +10,9 @@
 
 Summary:	Bidirectional (one-to-one) mapping data structure for Python
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
-Source0:	http://pypi.python.org/packages/source/b/%{module}/%{module}-%{version}.tar.gz
+Version:	0.18.0
+Release:	1
+Source0:	https://files.pythonhosted.org/packages/8a/18/a3feb46d99a7a73c3078faf1c9b24655eace83bcf696cfecae46288cad8a/bidict-0.18.0.tar.gz
 License:	MIT
 Group:		Development/Python
 Url:		http://bitbucket.org/jab/bidict/
