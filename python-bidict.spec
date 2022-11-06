@@ -9,7 +9,7 @@ License:	MIT
 Group:		Development/Python
 Url:		http://bitbucket.org/jab/bidict/
 BuildArch:	noarch
-BuildRequires:	python-devel, python-setuptools
+BuildRequires:	python%{pyver}dist(pip)
 
 %description
 bidict provides a bidirectional mapping data structure and related
