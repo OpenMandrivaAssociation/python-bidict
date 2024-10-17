@@ -7,7 +7,7 @@ Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/b/bidict/bidict-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
-Url:		http://bitbucket.org/jab/bidict/
+Url:		https://bitbucket.org/jab/bidict/
 BuildArch:	noarch
 BuildRequires:	python%{pyver}dist(pip)
 
