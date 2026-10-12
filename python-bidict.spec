@@ -5,11 +5,12 @@ Name:		python-bidict
 Version:	0.24.1
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/b/bidict/bidict-%{version}.tar.gz
-License:	MIT
+License:	MPL-2.0
 Group:		Development/Python
-Url:		https://bitbucket.org/jab/bidict/
+Url:		https://github.com/jab/bidict
 BuildArch:	noarch
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(uv-build)
 
 %description
 bidict provides a bidirectional mapping data structure and related
@@ -29,4 +30,5 @@ natural way of expressing the inverse mapping in a bidict.
 %py_install
 
 %files
+%license LICENSE
 %py_sitedir/%{module}*
